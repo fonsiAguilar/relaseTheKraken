@@ -1,9 +1,10 @@
 #include <iosteam>
-#include <stdio.h>
+#include "feature.cpp"
 
 using namespace std;
 
 int main(void)
 {
-cout<<"Release the Kraken<<endl;
+  printPuts();
+  cout<<"Release the Kraken<<endl;
 }
